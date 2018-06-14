@@ -190,7 +190,7 @@ Either way we need to create two repositories, `dc18_build` and `dc18`. `dc18_bu
 Since we used `git clone` to copy the repository to `worker3` for this workshop, there is a script from that will create the DTR repositories.
 
 ```
-./dc18_supply_chain/scripts/create_repos.sh
+. /dc18_supply_chain/scripts/create_repos.sh
 ```
 
 Feel free to `cat` the file to see how we are using `curl` and the API to create the repositories.
